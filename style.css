@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#070b14;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:rgba(0,0,0,.85);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+    border-bottom:1px solid rgba(38,255,230,.3);
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    gap:40px;
+    padding:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-family:'Press Start 2P', cursive;
+    font-size:12px;
+}
+
+nav a:hover{
+    color:#26ffe6;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),
+    url("background.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.logo{
+    width:280px;
+    max-width:80%;
+    margin-bottom:25px;
+}
+
+.hero h1{
+    font-family:'Press Start 2P', cursive;
+    color:#26ffe6;
+    text-shadow:0 0 15px #26ffe6;
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    color:#ff2ca8;
+    font-size:1.4rem;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+    margin-top:25px;
+}
+
+.btn{
+    padding:14px 25px;
+    border-radius:12px;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.twitch{background:#9146FF;}
+.youtube{background:#FF0000;}
+.discord{background:#5865F2;}
+.instagram{background:#ff2ca8;}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    font-family:'Press Start 2P', cursive;
+    color:#26ffe6;
+    margin-bottom:40px;
+}
+
+.card{
+    background:#121827;
+    border:1px solid rgba(38,255,230,.2);
+    border-radius:20px;
+    padding:30px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+
+@media(max-width:768px){
+
+nav ul{
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.hero h1{
+    font-size:1.8rem;
+}
+
+.logo{
+    width:200px;
+}
+
+}
