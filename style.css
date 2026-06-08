@@ -180,6 +180,17 @@ section:not(.hero){
     margin-top:20px;
 }
 
+.video-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.video-grid iframe{
+    border:none;
+    border-radius:15px;
+}
+
 footer{
     text-align:center;
     padding:40px;
