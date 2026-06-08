@@ -50,14 +50,11 @@ nav a:hover{
     min-height:100vh;
 
     background:
-    linear-gradient(
-        rgba(0,0,0,.35),
-        rgba(0,0,0,.55)
-    ),
+    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.55)),
     url("background.jpg");
 
     background-size:cover;
-    background-position:center center;
+    background-position:center;
     background-repeat:no-repeat;
 
     display:flex;
@@ -66,7 +63,6 @@ nav a:hover{
 
     padding:120px 20px;
 }
-
 .hero-content{
     width:100%;
     max-width:900px;
