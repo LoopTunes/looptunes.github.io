@@ -156,6 +156,12 @@ section:not(.hero){
 .section-title{
     font-family:'Press Start 2P', cursive;
     color:#26ffe6;
+
+    font-size:28px;
+
+    text-shadow:
+    0 0 10px rgba(38,255,230,.5);
+
     margin-bottom:40px;
 }
 
