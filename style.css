@@ -172,6 +172,11 @@ footer{
     color:#777;
 }
 
+iframe{
+    border:none;
+    border-radius:15px;
+}
+
 @media(max-width:768px){
 
 nav ul{
