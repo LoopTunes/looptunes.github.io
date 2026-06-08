@@ -11,9 +11,12 @@ html{
 }
 
 body{
-    background:#070b14;
-    color:white;
-    font-family:Arial,sans-serif;
+    background:
+        linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)),
+        url("background.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
 }
 
 nav{
@@ -47,9 +50,6 @@ nav a:hover{
 
 .hero{
     min-height:900px;
-    background:
-    linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.65)),
-    url("background.png");
     background-size:cover;
     background-position:center;
     display:flex;
