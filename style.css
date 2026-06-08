@@ -50,8 +50,11 @@ nav a:hover{
     min-height:100vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.55)),
-    url("background.png");
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.55)
+    ),
+    url("background.jpg");
 
     background-size:cover;
     background-position:center;
@@ -63,19 +66,19 @@ nav a:hover{
 
     padding:120px 20px;
 }
+
 .hero-content{
-    width:100%;
+    width:90%;
     max-width:900px;
 
     background:rgba(0,0,0,.45);
-    backdrop-filter:blur(12px);
+    backdrop-filter:blur(10px);
 
     border:1px solid rgba(38,255,230,.35);
     border-radius:25px;
 
     box-shadow:
-        0 0 20px rgba(38,255,230,.15),
-        0 0 40px rgba(38,255,230,.10);
+    0 0 20px rgba(38,255,230,.15);
 
     padding:50px;
 
@@ -85,17 +88,22 @@ nav a:hover{
 .logo{
     width:450px;
     max-width:80%;
+    margin-bottom:25px;
 }
 
 .hero h1{
-    font-size:4rem;
+    font-family:'Press Start 2P', cursive;
+    color:#26ffe6;
 
     text-shadow:
-        0 0 10px #26ffe6,
-        0 0 20px #26ffe6,
-        0 0 40px #26ffe6,
-        0 0 80px #26ffe6;
+    0 0 10px #26ffe6,
+    0 0 20px #26ffe6,
+    0 0 40px #26ffe6;
+
+    font-size:4rem;
+    margin-bottom:20px;
 }
+
 .subtitle{
     color:#ff2ca8;
     font-size:1.4rem;
@@ -176,11 +184,11 @@ nav ul{
 }
 
 .hero h1{
-    font-size:1.8rem;
+    font-size:2rem;
 }
 
 .logo{
-    width:220px;
+    width:250px;
 }
 
 .hero-content{
